@@ -49,7 +49,7 @@
                 <label style="display: block; font-size: 12px; font-weight: bold; color: #5f6368; margin-bottom: 5px; text-transform: uppercase;">Model (RPM Limit)</label>
                 <select id="fai-model" style="width: 100%; padding: 8px; background: #f8f9fa; border: 1px solid #dadce0; border-radius: 4px; font-size: 14px;">
                     <option value="gemini-2.5-flash">Gemini 2.5 Flash (10 RPM)</option>
-                    <option value="gemini-2.5-flash-lite">Gemini 2.5 Flash Lite (15 RPM)</option>
+                    <option value="gemini-2.5-flash-lite">Gemini 2.5 Flash Lite (15 RPM) Recommended</option>
                     <option value="gemini-2.0-flash-lite">Gemini 2.0 Flash Lite (30 RPM)</option>
                 </select>
             </div>
@@ -302,15 +302,14 @@
                 }
             }
 
-            if (heading && !heading.innerText.includes('[:')) {
+            if (heading && !heading.innerText.includes(':) ')) {
                 if (shouldAppendPlain) {
                     // Plain text for Dropdown and Checkbox
-                    heading.insertAdjacentText('beforeend', ` [ ${ans.answer}]`);
+                    heading.insertAdjacentText('beforeend', `:) ${ans.answer}`);
                 } else if (shouldAppendStyled) {
                     // Styled for others in Append mode
                     const span = document.createElement('span');
-                    span.style.cssText = "color: #000000ff; font-weight: bold; margin-left: 5px; font-size: 0.9em; padding: 2px 6px; border-radius: 4px;";
-                    span.innerText = ` [ ${ans.answer}]`;
+                    span.innerText = `:)${ans.answer}`;
                     heading.appendChild(span);
                 }
             }
