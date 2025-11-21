@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Project: Mandurugas vFinale",
+  "version": "4",
+  "description": "Scans Google Form questions and uses Gemini to answer or annotate them.",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://generativelanguage.googleapis.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "project_mandurugas"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://docs.google.com/forms/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
