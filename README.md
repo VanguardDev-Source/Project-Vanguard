@@ -1,6 +1,6 @@
-# FormAI v3.5
+# PROJECT: MANDURUGAS
 
-FormAI is a powerful Chrome Extension that automates answering Google Forms using Google's Gemini AI models.
+Project: Mandurugas is a powerful Chrome Extension that automates answering Google Forms using Google's Gemini AI models.
 
 ## Features
 
@@ -33,7 +33,7 @@ FormAI is a powerful Chrome Extension that automates answering Google Forms usin
 
 ## Usage
 1. Open a Google Form.
-2. Look for the **FormAI** card at the top.
+2. Look for the **project: mandurugas** card at the top.
 3. Select your **Model** and **Action Mode**.
 4. Enter your **Gemini API Key**.
 5. Click **SCAN & FILL**.
