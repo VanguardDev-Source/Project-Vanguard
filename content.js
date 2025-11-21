@@ -3,7 +3,7 @@
     if (window.formAI_Active) return;
     window.formAI_Active = true;
 
-    console.log("FormAI v3.5 loaded.");
+    console.log("project: mandurugas v3.5 loaded.");
 
     // Main entry point: Inject UI when the page is ready
     const observer = new MutationObserver((mutations, obs) => {
@@ -167,7 +167,7 @@
                     let answerText = response.answer;
                     // Credit signature for paragraph
                     if (q.type === 'paragraph') {
-                        answerText = answerText.trim() + " - khristom";
+                        answerText = answerText.trim() + " :)";
                     }
 
                     answers.push({
@@ -302,15 +302,15 @@
                 }
             }
 
-            if (heading && !heading.innerText.includes('[AI Answer:')) {
+            if (heading && !heading.innerText.includes('[:')) {
                 if (shouldAppendPlain) {
                     // Plain text for Dropdown and Checkbox
-                    heading.insertAdjacentText('beforeend', ` [AI Answer: ${ans.answer}]`);
+                    heading.insertAdjacentText('beforeend', ` [ ${ans.answer}]`);
                 } else if (shouldAppendStyled) {
                     // Styled for others in Append mode
                     const span = document.createElement('span');
-                    span.style.cssText = "color: #1d4ed8; font-weight: bold; margin-left: 10px; font-size: 0.9em; background-color: #dbeafe; padding: 2px 6px; border-radius: 4px;";
-                    span.innerText = ` [AI Answer: ${ans.answer}]`;
+                    span.style.cssText = "color: #000000ff; font-weight: bold; margin-left: 5px; font-size: 0.9em; padding: 2px 6px; border-radius: 4px;";
+                    span.innerText = ` [ ${ans.answer}]`;
                     heading.appendChild(span);
                 }
             }
