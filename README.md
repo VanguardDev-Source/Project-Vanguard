@@ -89,5 +89,7 @@ To make the AI work, you need your own API Key from Google. It is free for perso
     * Open the Extension by clicking its icon in your browser.
     * Paste your API key into the settings/input field.
     * Save/Submit.
+  
+    * TEST THE EXTENSION USING THIS FORM: https://forms.gle/oduToP1YTidVffHE6
 
 > **Privacy Note:** Your API key is stored locally on your browser. It is never sent to my server; it goes directly from your browser to Google's servers to generate answers.
