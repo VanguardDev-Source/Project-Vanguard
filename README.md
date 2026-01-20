@@ -1,6 +1,6 @@
-# PROJECT: MANDURUGAS
+# PROJECT: VANGUARD
 
-Project: Mandurugas is a powerful Chrome Extension that automates answering Google Forms using Google's Gemini AI models.
+Project: Vanguard is a powerful Chrome Extension that automates answering Google Forms using Google's Gemini AI models.
 
 ## Features
 
