@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Project: Mandurugas vFinale",
+  "name": "Json File",
   "version": "4",
-  "description": "Scans Google Form questions and uses Gemini to answer or annotate them.",
+  "description": "..",
   "permissions": [
     "activeTab",
     "scripting"
