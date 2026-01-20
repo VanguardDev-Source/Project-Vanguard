@@ -42,7 +42,7 @@
 
         card.innerHTML = `
             <div style="border-left: 5px solid #000000ff; padding-left: 15px; margin-bottom: 20px;">
-                <h3 style="font-size: 24px; font-weight: 400; color: #202124; margin: 0;">project: mandurugas</h3>
+                <h3 style="font-size: 24px; font-weight: 400; color: #202124; margin: 0;">Failed</h3>
 \            </div>
             
             <div style="margin-bottom: 15px;">
